@@ -1,8 +1,8 @@
 ﻿
 bool Task_2 = false;
-bool Task_4 = false;
+bool Task_4 = true;
 bool Task_6 = false;
-bool Task_8 = true;
+bool Task_8 = false;
 
 if (Task_2) {
     int a = 5;
@@ -16,15 +16,15 @@ if (Task_2) {
 }
 
 if (Task_4) {
-    int a = 5;
-    int b = 44;
-    int c = 78;
+    int a = 0;
+    int b = 1;
+    int c = 2;
 
-    if (a > b) {
+    if (a > b && a > c) {
         Console.WriteLine(a);
-    } else if (b > c) {
+    } else if (b > c && b > a) {
         Console.WriteLine(b);
-    } else {
+    } else if (c > a && c > b){
         Console.WriteLine(c);
     }
 }
