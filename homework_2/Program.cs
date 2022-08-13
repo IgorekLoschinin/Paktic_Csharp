@@ -32,26 +32,14 @@ void ThirdNumber(int chiclo) {
 void dayWeek(int numDay) {
     switch (numDay)     
     {
-    case 1:
-        Console.WriteLine("NO");
-        return;
-    case 2:
-        Console.WriteLine("NO");
-        return;
-    case 3:
-        Console.WriteLine("NO");
-        return;
-    case 4:
-        Console.WriteLine("NO");
-        return;
-    case 5:
-        Console.WriteLine("NO");
-        return;
     case 6:
         Console.WriteLine("YES");
         return;
     case 7:
         Console.WriteLine("YES");
+        return;
+    default:
+        Console.WriteLine("NO");
         return;
     }
 }
