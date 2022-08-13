@@ -27,7 +27,7 @@ namespace homework3 {
 
         }
 
-        public void isPolindromIntNumV1(int num) {
+        public void isPolindromIntNumV1(long num) {
             
             string number = Convert.ToString(num);
 
