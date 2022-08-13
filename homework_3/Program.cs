@@ -6,12 +6,22 @@ namespace homework3 {
 
         static void Main(string[] args) {
 
-            Console.WriteLine("--------===== Decision Task 19 =====--------\n");          
+            Console.WriteLine("--------===== Decision Task 19 =====--------\n");
+            Console.WriteLine("\t--------===== isPolindromIntNumV =====--------\n");       
             Task19 task19 = new Task19();
+            task19.isPolindromIntNum(14212);
+            task19.isPolindromIntNum(12821);
+            task19.isPolindromIntNum(23432);            
+            Console.WriteLine("\t--------===== isPolindromIntNumV1 =====--------\n");  
+            task19.isPolindromIntNumV1(14212);
+            task19.isPolindromIntNumV1(12821);
+            task19.isPolindromIntNumV1(23432);
+            task19.isPolindromIntNumV1(12767536721);
+            Console.WriteLine("\t--------===== isPolindromIntNumV2 =====--------\n");
             task19.isPolindromIntNumV2(14212);
             task19.isPolindromIntNumV2(12821);
             task19.isPolindromIntNumV2(23432);
-            task19.isPolindromIntNumV2(12767536721);
+            task19.isPolindromIntNumV2(12767536721);  
 
 
             Console.WriteLine("\n--------===== Decision Task 21 =====--------\n"); 
